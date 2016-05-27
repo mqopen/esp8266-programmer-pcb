@@ -19339,7 +19339,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="L"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
-<part name="C3" library="rcl" deviceset="CPOL-EU" device="C/6032-28R" value="10uF"/>
+<part name="C3" library="rcl" deviceset="CPOL-EU" device="A/3216-18W" value="10uF"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>

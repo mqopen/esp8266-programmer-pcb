@@ -160,10 +160,10 @@
 <wire x1="2.54" y1="25.4" x2="0" y2="22.86" width="0" layer="20" curve="90"/>
 <wire x1="0" y1="22.86" x2="0" y2="2.54" width="0" layer="20"/>
 <wire x1="0" y1="2.54" x2="2.54" y2="0" width="0" layer="20" curve="90"/>
-<text x="19.304" y="19.558" size="1.778" layer="25" font="vector" ratio="15" rot="R90">3V3</text>
-<text x="29.21" y="20.32" size="1.778" layer="25" font="vector" ratio="15" rot="R90">5V</text>
-<text x="29.464" y="11.684" size="1.016" layer="26" font="vector" ratio="15" rot="MR0">ivo.slanina@gmail.com</text>
-<text x="29.464" y="13.208" size="1.143" layer="26" font="vector" ratio="15" rot="MR0">ESP8266 PROGRAMMER v0.1.0</text>
+<text x="19.304" y="21.844" size="1.778" layer="25" font="vector" ratio="15" rot="R90" align="bottom-center">3V3</text>
+<text x="27.432" y="21.844" size="1.778" layer="25" font="vector" ratio="15" rot="R90" align="top-center">5V</text>
+<text x="29.464" y="11.684" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">ivo.slanina@gmail.com</text>
+<text x="29.464" y="13.208" size="1.143" layer="22" font="vector" ratio="15" rot="MR0">ESP8266 PROGRAMMER v0.1.0</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
@@ -1518,19 +1518,20 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
 </package>
-<package name="C/6032-28R">
-<description>&lt;b&gt;Chip Capacitor Type KEMET C / EIA 6032-28 reflow solder&lt;/b&gt;&lt;p&gt;KEMET U / EIA 6032-15</description>
-<wire x1="-2.8" y1="1.55" x2="2.8" y2="1.55" width="0.1016" layer="51"/>
-<wire x1="2.8" y1="1.55" x2="2.8" y2="-1.55" width="0.1016" layer="51"/>
-<wire x1="2.8" y1="-1.55" x2="-2.8" y2="-1.55" width="0.1016" layer="51"/>
-<wire x1="-2.8" y1="-1.55" x2="-2.8" y2="1.55" width="0.1016" layer="51"/>
-<smd name="+" x="2.525" y="0" dx="2.55" dy="2.5" layer="1"/>
-<smd name="-" x="-2.525" y="0" dx="2.55" dy="2.5" layer="1"/>
-<text x="-3" y="1.825" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3" y="-3.05" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-3" y1="-1.1" x2="-2.85" y2="1.1" layer="51"/>
-<rectangle x1="2.85" y1="-1.1" x2="3" y2="1.1" layer="51"/>
-<rectangle x1="1.95" y1="-1.575" x2="2.45" y2="1.575" layer="51"/>
+<package name="A/3216-18W">
+<description>&lt;b&gt;Chip Capacitor Type KEMET A / EIA 3216-18 Wave solder&lt;/b&gt;&lt;p&gt;
+KEMET S / EIA 3216-12</description>
+<wire x1="-1.45" y1="0.6" x2="1.45" y2="0.6" width="0.1016" layer="51"/>
+<wire x1="1.45" y1="0.6" x2="1.45" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="1.45" y1="-0.6" x2="-1.45" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="-1.45" y1="-0.6" x2="-1.45" y2="0.6" width="0.1016" layer="51"/>
+<smd name="+" x="1.475" y="0" dx="2.15" dy="1.8" layer="1"/>
+<smd name="-" x="-1.475" y="0" dx="2.15" dy="1.8" layer="1"/>
+<text x="-1.95" y="1" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.95" y="-2.325" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.6" y1="-0.6" x2="-1.475" y2="0.6" layer="51"/>
+<rectangle x1="1.475" y1="-0.6" x2="1.6" y2="0.6" layer="51"/>
+<rectangle x1="0.8" y1="-0.625" x2="1.1" y2="0.625" layer="51"/>
 </package>
 </packages>
 </library>
@@ -1808,8 +1809,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="15.24" y="16.51" size="1.27" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="13.716" y="21.082" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C3" library="rcl" package="C/6032-28R" value="10uF" x="11.176" y="20.574" smashed="yes" rot="R270">
-<attribute name="NAME" x="9.351" y="19.86" size="1.27" layer="25" font="vector" ratio="15" rot="R90"/>
+<element name="C3" library="rcl" package="A/3216-18W" value="10uF" x="11.176" y="20.574" smashed="yes" rot="R270">
+<attribute name="NAME" x="9.605" y="19.86" size="1.27" layer="25" font="vector" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="8.126" y="23.574" size="1.27" layer="27" rot="R270"/>
 </element>
 </elements>
@@ -1874,6 +1875,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <via x="43.942" y="23.622" extent="1-16" drill="0.5"/>
 <via x="43.688" y="1.524" extent="1-16" drill="0.5"/>
 <via x="44.45" y="12.7" extent="1-16" drill="0.5"/>
+<via x="15.494" y="5.588" extent="1-16" drill="0.5"/>
+<via x="31.75" y="8.89" extent="1-16" drill="0.5"/>
 </signal>
 <signal name="TXD">
 <contactref element="ISP" pad="1"/>
@@ -1949,10 +1952,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="C3" pad="+"/>
 <wire x1="22.311" y1="13.167" x2="25.908" y2="16.764" width="0.4064" layer="1"/>
 <wire x1="25.908" y1="16.764" x2="25.908" y2="21.844" width="0.4064" layer="1"/>
-<wire x1="11.176" y1="18.049" x2="11.176" y2="16.256" width="0.4064" layer="1"/>
+<wire x1="11.176" y1="19.099" x2="11.176" y2="16.256" width="0.4064" layer="1"/>
 <wire x1="11.176" y1="16.256" x2="11.684" y2="15.748" width="0.4064" layer="1"/>
-<wire x1="11.176" y1="18.049" x2="13.157" y2="18.049" width="0.4064" layer="1"/>
-<wire x1="13.157" y1="18.049" x2="13.97" y2="18.862" width="0.4064" layer="1"/>
+<wire x1="11.176" y1="19.099" x2="13.97" y2="19.099" width="0.4064" layer="1"/>
+<wire x1="13.97" y1="19.099" x2="13.97" y2="18.862" width="0.4064" layer="1"/>
 </signal>
 <signal name="USBDM">
 <contactref element="USB" pad="D-"/>
